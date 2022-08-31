@@ -173,7 +173,7 @@ ul {
 }
 
 .premier__text {
-	margin-bottom: 28px;
+	margin-bottom: 22px;
 }
 
 .premier__img {
@@ -245,6 +245,7 @@ ul {
 	grid-template-columns: 255px 255px auto 330px;
 	grid-template-rows: auto auto;
 	gap: 14px 44px;
+	margin-bottom: 100px;
 }
 
 .design__cell-one {
@@ -266,4 +267,32 @@ ul {
 
 .design__cell-text {
 	margin-bottom: 15px;
+}
+
+.design-slider__item {
+	margin: 0 30px;
+}
+
+.slick-track {
+	margin-left: -30px;
+}
+
+.design-slider {
+	padding-bottom: 25px;
+}
+
+.arrow {
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	bottom: 0;
+	left: 50%;
+}
+
+.arrow-left {
+	transform: translateX(-80px);
+}
+
+.arrow-right {
+	transform: translateX(30px);
 }
